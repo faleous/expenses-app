@@ -1,0 +1,32 @@
+.cost-item-wrapper {
+    width: 70%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2);
+    margin-top: 5px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cost-item-price {
+    font-size: small;
+    color: gray;
+}
+
+.price-description-wrapper {
+    flex: 4;
+}
+
+.cost-item-date {
+    flex: 1;
+    margin-left: 20%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 8vw;
+    width: 8vw;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(91, 91, 244);
+}
