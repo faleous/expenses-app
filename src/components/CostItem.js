@@ -6,7 +6,7 @@ export default function CostItem(props) {
             <p className='cost-item-date'> {props.date.toDateString()} </p>
             <div className='price-description-wrapper'>
                 <p>{props.description}</p>
-                <p className='cost-item-price'>{props.amount}</p>
+                <p className='cost-item-price'>${props.amount}</p>
             </div>
         </div>
     )
