@@ -1,0 +1,16 @@
+.new-cost__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    width: 70%;
+    margin: 10px 0 10px 0;
+    padding: 0 10px 10px 10px;
+
+    background-color: rgb(215, 213, 213);
+    border-radius: 10px;
+}
+
+.new-cost__wrapper img {
+    width: 100%;
+}

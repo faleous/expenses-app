@@ -1,0 +1,40 @@
+form { 
+    width: 70%;
+    margin-left: 10px;
+}
+
+.new-cost__control {
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px 0 10px 0;
+}
+
+.new-cost__control label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+.new-cost__control input {
+   height: 3vw; 
+   font-size: medium;
+}
+
+.new-cost__actions {
+    display: flex;
+    align-self: flex-start;
+}
+
+.new-cost__actions button {
+    height: 50px;
+    width: 15vw;
+    margin-top: 5px;
+
+    border-radius: 10px;
+    font-size: medium;
+    box-shadow: none;
+}
+
+.new-cost__actions button:hover {
+    color: purple;
+}
